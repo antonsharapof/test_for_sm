@@ -1,4 +1,3 @@
-from pytz import unicode
 from rest_framework import viewsets
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.decorators import api_view, parser_classes, permission_classes
