@@ -21,7 +21,7 @@ def first_way(request):
                 r.write(file.read())
             answer.append("{} uploaded".format(file.name))
         else:
-            answer.append("{} is not image or size > 20kB".format(file.name))
+            answer.append("{} is not image or size > 200kB".format(file.name))
     return Response({'received data': answer})
 
 
